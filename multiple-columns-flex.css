@@ -1,0 +1,23 @@
+/* 
+
+Usage: Add the flex-col class to to Display -> CUSTOM CLASS NAMES -> CONTAINER
+
+Only 2 columns: .flex-col-half
+
+*/
+
+.flex-col-half ul,
+.flex-col ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-col li {
+    flex: 1 1 auto;
+}
+
+.flex-col-half li {
+    flex: 1 1 auto;
+    width: 50%;
+}
